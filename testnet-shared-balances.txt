@@ -1,0 +1,41 @@
+  "initial_balances": [{
+      "owner": "ibcHYhQcrjVg5kBzCoeeD38eQdncCC5pBgee",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibcPgQZg5929ht1NBdEvsGKqoQ7buRu3nKf4",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibcC9zrLXSAPUQaVmQPk1S9dMqSzT7jPqYU7",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibc93aQPtbbkXwaSjtHaREsNVcCvbfHo93aZ",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibc6RM4UfsYFPDuhbmgkvDS9ip8Kvqundvyk",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibcNVkZXdqWWSzqHVxvfetMe347is6kEkC4K",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibc5GHzWZ64Luoajqsz6JGjTKVMgWYkGV9SQ",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibcDCVRFez92bW9doRLjnFCKLJnpM58mgmMb",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibc5CCdX3JYLBptYMuCjbsezqGYzN9vG9JCu",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
+      "owner": "ibcEQ3yQdr3EMDL2eRqGiceMCpoanaW16Puw",
+      "asset_symbol": "CORE",
+      "amount": 100000000000
+    },{
