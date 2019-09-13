@@ -17,7 +17,6 @@ IBCChain
 
 IBCChain Core is the IBCChain blockchain implementation and command-line interface.
 ibc Chain is developed based on graphene, namely the project of Bitshares. We have made our own consensus mechanism, aka D-DPoS, in brief a contribution-based and relatively randomized super-node election mechanism, in order to avoid ballot rigging and improve security. Also, we have implemented our own virtual machine (which is not included in Bitshares) for smart contracts, which is also compatible with Solidarity, the most popular Ethereum smart contract language.
-The web wallet is [IBCChain UI](https://github.com/ibcusergit/ibcui).
 
 **NOTE:** The official IBCChain git repository location, default branch, and submodule remotes were recently changed. Existing
 repositories can be updated with the following steps:
@@ -90,8 +89,6 @@ Support
 
 IBCChain Core bugs can be reported directly to the [issue tracker](https://github.com/ibcusergit/ibcchain/issues).
 
-IBCChain UI bugs should be reported to the [UI issue tracker](https://github.com/ibcusergit/ibc-ui/issues)
-
 Up to date online Doxygen documentation can be found at [Doxygen](https://ibc.org/doxygen/hierarchy.html)
 
 Using the API
@@ -159,10 +156,6 @@ With the above configuration, here is an example of how to call `add_node` from 
 Note, the call to `network_node` is necessary to obtain the correct API identifier for the network API.  It is not guaranteed that the network API identifier will always be `2`.
 
 Since the `network_node` API requires login, it is only accessible over the websocket RPC.  Our `doxygen` documentation contains the most up-to-date information
-about API's for the [witness node](https://ibc.github.io/doxygen/namespacegraphene_1_1app.html) and the
-[wallet](https://ibc.github.io/doxygen/classgraphene_1_1wallet_1_1wallet__api.html).
-If you want information which is not available from an API, it might be available
-from the [database](https://ibc.github.io/doxygen/classgraphene_1_1chain_1_1database.html);
 it is fairly simple to write API methods to expose database methods.
 
 FAQ
@@ -203,9 +196,7 @@ FAQ
     Implementation space objects cannot appear on the wire and solely exist for implementation
     purposes, such as optimization or internal bookkeeping.
 
-    The second number specifies the *type*.  The type of the object determines what fields it has.  For a
-    complete list of type ID's, see `enum object_type` and `enum impl_object_type` in
-    [types.hpp](https://github.com/ibcusergit/ibc-2/blob/ibcusergit/libraries/chain/include/graphene/chain/protocol/types.hpp).
+    The second number specifies the *type*.  The type of the object determines what fields it has.
 
     The third number specifies the *instance*.  The instance of the object is different for each individual
     object.
